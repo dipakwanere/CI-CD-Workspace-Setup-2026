@@ -1,0 +1,15 @@
+$VENV_NAME/
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+datasets/
+models/
+*.csv
+*.parquet
+*.pkl
+*.h5
+.vscode/
+.idea/
