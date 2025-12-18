@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ci_cd_workspace
+Version: 0.1.0
+Summary: Flat ML project with CLI runner
+Author-email: Your Name <your_email@example.com>
+Requires-Python: >=3.9
+Requires-Dist: pytest
+Requires-Dist: pylint
+Requires-Dist: black

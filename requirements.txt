@@ -5,3 +5,10 @@ matplotlib
 seaborn
 jupyter
 python-dotenv
+
+pytest
+pytest-cov
+black
+pylint
+ipython
+

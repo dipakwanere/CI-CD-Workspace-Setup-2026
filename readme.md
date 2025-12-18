@@ -1,3 +1,5 @@
+How to setup a project with Python venv and scaffold files for production ready code.
+
 ## Creating a venv for a project 
 python -m venv .venv
 Windows use `.venv\Scripts\activate`
@@ -50,3 +52,24 @@ lint:
 all: install lint test
 
 ```
+install:
+    pip install --upgrade pip
+    pip install -r requirements.txt
+
+test:
+    python -m pytest -vv tests/test_hello.py
+
+format:
+    black *.py
+
+lint:
+    pylint --disable=R,C src/main.py
+
+all: install lint test
+
+
+
+cli.py → contains functions
+pyproject.toml OR setup.py → defines CLI commands
+pip install -e . → installs package in editable mode
+terminal → run CLI commands (install/test/lint/all/format)

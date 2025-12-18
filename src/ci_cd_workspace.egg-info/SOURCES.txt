@@ -1,0 +1,9 @@
+pyproject.toml
+src/main.py
+src/ci_cd_workspace.egg-info/PKG-INFO
+src/ci_cd_workspace.egg-info/SOURCES.txt
+src/ci_cd_workspace.egg-info/dependency_links.txt
+src/ci_cd_workspace.egg-info/entry_points.txt
+src/ci_cd_workspace.egg-info/requires.txt
+src/ci_cd_workspace.egg-info/top_level.txt
+tests/test_hello1.py

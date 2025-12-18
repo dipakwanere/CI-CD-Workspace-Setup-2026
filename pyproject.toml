@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ci_cd_workspace"
+version = "0.1.0"
+description = "Flat ML project with CLI runner"
+authors = [
+    { name="Your Name", email="your_email@example.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pytest",
+    "pylint",
+    "black"
+]
+
+[project.scripts]
+install = "cli:install"
+test = "cli:test"
+lint = "cli:lint"
+format = "cli:format"
+all = "cli:all"
+
+[tool.setuptools]
+py-modules = ["cli"]

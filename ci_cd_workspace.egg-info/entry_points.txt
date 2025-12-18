@@ -1,0 +1,6 @@
+[console_scripts]
+all = cli:all
+format = cli:format
+install = cli:install
+lint = cli:lint
+test = cli:test
