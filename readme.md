@@ -73,3 +73,15 @@ cli.py → contains functions
 pyproject.toml OR setup.py → defines CLI commands
 pip install -e . → installs package in editable mode
 terminal → run CLI commands (install/test/lint/all/format)
+
+
+
+# Using Git for version control
+~ git init
+~ git add .
+~ git commit -m "Initial commit"
+~ git remote add origin <your-repo-url>
+~ git push -u origin main
+~ git pull origin main
+~ git checkout -b feature-branch # create a new branch if its not already present --> then you do git status, git add, git commit -m "message", git push origin feature-branch
+and then create a pull request on github to merge feature-branch to main branch
