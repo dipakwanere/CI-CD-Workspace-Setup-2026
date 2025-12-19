@@ -17,11 +17,11 @@ dependencies = [
 ]
 
 [project.scripts]
-install = "cli:install"
-test = "cli:test"
-lint = "cli:lint"
-format = "cli:format"
-all = "cli:all"
+ci-install = "cli:install"
+ci-test = "cli:test"
+ci-lint = "cli:lint"
+ci-format = "cli:format"
+ci-all = "cli:all"
 
 [tool.setuptools]
 py-modules = ["cli"]

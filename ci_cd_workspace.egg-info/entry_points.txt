@@ -1,6 +1,6 @@
 [console_scripts]
-all = cli:all
-format = cli:format
-install = cli:install
-lint = cli:lint
-test = cli:test
+ci-all = cli:all
+ci-format = cli:format
+ci-install = cli:install
+ci-lint = cli:lint
+ci-test = cli:test
