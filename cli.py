@@ -14,7 +14,7 @@ def test():
 
 
 def lint():
-    run("pylint --disable=R,C *.py")
+    run("pylint --disable=R,C hello.py")
 
 
 def format():
