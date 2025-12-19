@@ -10,7 +10,7 @@ def install():
 
 
 def test():
-    run("pytest -vv ")
+    run("pytest -vv")
 
 
 def lint():
