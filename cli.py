@@ -10,11 +10,11 @@ def install():
 
 
 def test():
-    run("pytest -vv test_hello.py")
+    run("pytest -vv ")
 
 
 def lint():
-    run("pylint --disable=R,C hello.py")
+    run("pylint --disable=R,C *.py")
 
 
 def format():
